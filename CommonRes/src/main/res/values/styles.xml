@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="public_AppTheme" parent="QMUI.Compat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/public_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/public_colorPrimaryDark</item>
+        <item name="colorAccent">@color/public_colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/public_Activity_Animation</item>
+
+
+        <!-- 配置Android提供的theme -->
+        <item name="android:textAppearanceListItemSmall">@style/public_QDTextAppearanceListItemSmall</item>
+        <item name="android:textAppearanceListItem">@style/public_QDtextAppearanceListItem</item>
+        <item name="android:listPreferredItemHeight">?attr/qmui_list_item_height_higher</item>
+        <item name="android:listPreferredItemHeightSmall">?attr/qmui_list_item_height</item>
+
+        <!-- 配置qmui提供的theme -->
+        <item name="qmui_config_color_blue">@color/public_colorPrimary</item>
+        <item name="qmui_round_btn_bg_color">@color/public_colorPrimary</item>
+        <item name="qmui_round_btn_border_color">@color/public_colorPrimary</item>
+        <item name="qmui_round_btn_text_color">@color/public_colorPrimary</item>
+        <item name="qmui_content_spacing_horizontal">20dp</item>
+        <item name="qmui_content_padding_horizontal">@dimen/qmui_content_spacing_horizontal</item>
+
+        <item name="QMUITopBarStyle">@style/public_QDTopBar</item>
+
+        <!-- 配置app自己的theme -->
+        <!--<item name="public_app_primary_color">#2b2b2b</item>-->
+        <!--<item name="public_pp_content_bg_color">#ffffff</item>-->
+    </style>
+    <attr name="public_app_primary_color" format="color"/> <!-- topbar -->
+    <attr name="public_app_content_bg_color" format="color"/> <!-- content-->
+    <style name="public_QDTopBar" parent="QMUI.TopBar">
+        <item name="qmui_topbar_bg_color">?attr/public_app_primary_color</item>
+        <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_subtitle_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_text_btn_color_state_list">@color/public_colorPrimary</item>
+        <item name="qmui_topbar_height">48dp</item>
+        <item name="qmui_topbar_image_btn_height">48dp</item>
+    </style>
+
+    <style name="public_QDtextAppearanceListItem">
+        <item name="android:textColor">?attr/qmui_config_color_black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">?attr/qmui_s_list_item_bg_with_border_bottom_inset_left
+        </item>
+    </style>
+
+    <style name="public_QDTextAppearanceListItemSmall">
+        <item name="android:textColor">?attr/qmui_config_color_gray_4</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">?attr/qmui_s_list_item_bg_with_border_bottom_inset_left
+        </item>
+    </style>
+
+    <style name="public_Activity_Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/public_translate_right_to_center</item>
+        <item name="android:activityOpenExitAnimation">@anim/public_translate_center_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/public_translate_left_to_center</item>
+        <item name="android:activityCloseExitAnimation">@anim/public_translate_center_to_right</item>
+    </style>
+
+    <style name="public_dialog_inout_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/public_dialog_enter</item>
+        //进入时的动画
+        <item name="android:windowExitAnimation">@anim/public_dialog_exit</item>
+        //退出时的动画
+    </style>
+
+    <style name="public_dialog_progress" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--不同状态的 View 属性-->
+    <declare-styleable name="Public_MultipleStatusView">
+        <attr name="Public_loadingView" format="reference"/>
+        <attr name="Public_errorView" format="reference"/>
+        <attr name="Public_emptyView" format="reference"/>
+        <attr name="Public_noNetworkView" format="reference"/>
+        <attr name="Public_contentView" format="reference"/>
+    </declare-styleable>
+
+    <style name="Public_MultipleStatusView" />
+    <style name="Public_MultipleStatusView.Content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">#a9b7b7</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--透明渐变的TabView-->
+    <declare-styleable name="AlphaTabView">
+        <attr name="tabIconNormal" format="reference" />
+        <attr name="tabIconSelected" format="reference" />
+        <attr name="tabText" format="string" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="textColorNormal" format="color" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="badgeBackgroundColor" format="color" />
+        <attr name="paddingTexwithIcon" format="dimension"/>
+    </declare-styleable>
+</resources>

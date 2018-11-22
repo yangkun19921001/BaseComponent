@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="public_colorPrimary">#37889F</color>
+    <color name="public_colorPrimaryDark">#37889F</color>
+    <color name="public_colorAccent">#FF4081</color>
+    <color name="public_white">#FFFFFF</color>
+    <color name="public_black">#000000</color>
+    <color name="public_color_transparent">#00000000</color>
+    <color name="public_color_4A4A4A">#4A4A4A</color>
+    <color name="public_color_443636">#443636</color>
+    <color name="public_color_53A8F4">#53A8F4</color>
+    <color name="public_color_53A7F3">#53A7F3</color>
+    <color name="public_color_E5E5E5">#E5E5E5</color>
+    <color name="public_color_F6F6F6">#F6F6F6</color>
+    <color name="public_color_FFFFFF">#FFFFFF</color>
+    <color name="public_color_959292">#959292</color>
+    <color name="public_color_CDD3D7">#CDD3D7</color>
+    <color name="public_color_B8B6B6">#B8B6B6</color>
+    <color name="public_color_E7E7E7">#E7E7E7</color>
+    <color name="public_color_D8D8D8">#D8D8D8</color>
+    <color name="public_color_06CB7E">#06CB7E</color>
+    <color name="public_color_6C6C6C">#6C6C6C</color>
+    <color name="public_color_666F80">#666F80</color>
+    <color name="public_color_0F79FD">#0F79FD</color>
+    <color name="public_color_FFB8B6B6">#FFB8B6B6</color>
+    <color name="public_color_F55122">#F55122</color>
+    <color name="public_color_F55123">#F55123</color>
+    <color name="public_color_FFF55122">#FFF55122</color>
+    <color name="public_color_FF6C6C6C">#FF6C6C6C</color>
+    <color name="public_color_FF959292">#FF959292</color>
+    <color name="public_color_FF9C15">#FF9C15</color>
+    <color name="public_color_FF4A4A4A">#FF4A4A4A</color>
+    <color name="public_color_FFF59C22">#FFF59C22</color>
+    <color name="public_color_F59C22">#F59C22</color>
+    <color name="public_color_F59C23">#F59C23</color>
+    <color name="public_color_FFFFFFFF">#FFFFFFFF</color>
+    <color name="public_color_FF53A8F4">#FF53A8F4</color>
+    <color name="public_color_E9EDEE">#E9EDEE</color>
+    <color name="public_color_FFE9EDEE">#FFE9EDEE</color>
+    <color name="public_color_FF06CB7E">#FF06CB7E</color>
+    <color name="public_background">#FFF6F6F6</color>
+    <color name="public_color_979797">#979797</color>
+    <color name="public_color_FED652">#FED652</color>
+    <color name="public_color_148CF9">#148CF9</color>
+
+
+
+
+    <color name="public_gray0">#464646</color>
+    <color name="public_gray1">#7e7e7e</color>
+    <color name="public_gray2">#969696</color>
+    <color name="public_gray3">#c8969696</color>
+    <color name="public_gray4">#F5F5F5</color>
+    <color name="public_gray5">#EBEBEB</color>
+    <color name="public_gray6">#FBFBFB</color>
+    <color name="public_gray7">#999999</color>
+    <color name="public_gray8">#D9D9D9</color>
+    <color name="public_gray9">#DBDFE0</color>
+
+    <color name="public_red0">#ff0000</color>
+    <color name="public_red1">#D84E43</color>
+    <color name="public_red2">#F08B88</color>
+    <color name="public_red3">#FFFAF5</color>
+    <color name="public_red4">#823026</color>
+    <color name="public_red5">#FA6F5F</color>
+    <color name="public_red6">#D54A47</color>
+    <color name="public_red7">#E64340</color>
+    <color name="public_red8">#FF3E3E</color>
+
+    <color name="public_green0">#45C01A</color>
+    <color name="public_green1">#45C01A</color>
+    <color name="public_green2">#A3DEA3</color>
+    <color name="public_green3">#1AAD19</color>
+
+
+    <color name="public_alpha_05_white">#0DFFFFFF</color>
+    <color name="public_alpha_10_white">#1AFFFFFF</color>
+    <color name="public_alpha_15_white">#26FFFFFF</color>
+    <color name="public_alpha_20_white">#33FFFFFF</color>
+    <color name="public_alpha_25_white">#40FFFFFF</color>
+    <color name="public_alpha_30_white">#4DFFFFFF</color>
+    <color name="public_alpha_35_white">#59FFFFFF</color>
+    <color name="public_alpha_40_white">#66FFFFFF</color>
+    <color name="public_alpha_45_white">#73FFFFFF</color>
+    <color name="public_alpha_50_white">#80FFFFFF</color>
+    <color name="public_alpha_55_white">#8CFFFFFF</color>
+    <color name="public_alpha_60_white">#99FFFFFF</color>
+    <color name="public_alpha_65_white">#A6FFFFFF</color>
+    <color name="public_alpha_70_white">#B3FFFFFF</color>
+    <color name="public_alpha_75_white">#BFFFFFFF</color>
+    <color name="public_alpha_80_white">#CCFFFFFF</color>
+    <color name="public_alpha_85_white">#D9FFFFFF</color>
+    <color name="public_alpha_90_white">#E6FFFFFF</color>
+    <color name="public_alpha_95_white">#F2FFFFFF</color>
+
+    <color name="public_alpha_05_black">#0D000000</color>
+    <color name="public_alpha_10_black">#1A000000</color>
+    <color name="public_alpha_15_black">#26000000</color>
+    <color name="public_alpha_20_black">#33000000</color>
+    <color name="public_alpha_25_black">#40000000</color>
+    <color name="public_alpha_30_black">#4D000000</color>
+    <color name="public_alpha_35_black">#59000000</color>
+    <color name="public_alpha_40_black">#66000000</color>
+    <color name="public_alpha_45_black">#73000000</color>
+    <color name="public_alpha_50_black">#80000000</color>
+    <color name="public_alpha_55_black">#8C000000</color>
+    <color name="public_alpha_60_black">#99000000</color>
+    <color name="public_alpha_65_black">#A6000000</color>
+    <color name="public_alpha_70_black">#B3000000</color>
+    <color name="public_alpha_75_black">#BF000000</color>
+    <color name="public_alpha_80_black">#CC000000</color>
+    <color name="public_alpha_85_black">#D9000000</color>
+    <color name="public_alpha_90_black">#E6000000</color>
+    <color name="public_alpha_95_black">#F2000000</color>
+
+
+    <!--页面公共背景色-->
+    <color name="public_app_bg">#FFF0EEEE</color>
+    <!--副字体颜色-->
+    <color name="public_gray_dft">#888888</color>
+    <!--主字体颜色-->
+    <color name="public_black_dft">#2b2b2b</color>
+</resources>

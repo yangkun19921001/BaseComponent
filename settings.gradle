@@ -1,0 +1,10 @@
+include ':app',
+        ':CommonSDK',
+        ':CommonService',
+        ':CommonRes',
+        ':ThirdLibrarys:contacts_library',                      //通讯录组件
+        ':ThirdLibrarys:chat:chatinput',                      //聊天输入封装组件
+        ':ThirdLibrarys:chat:messagelist',                      //聊天消息列表封装组件
+        ':ThirdLibrarys:chat:waveview',                      //聊天MP3录音封装组件
+        ':ThirdLibrarys:chat:WeiXinRecorded',                //聊天视频录音封装组件
+        ':ThirdLibrarys:chat:chat_base_component'
